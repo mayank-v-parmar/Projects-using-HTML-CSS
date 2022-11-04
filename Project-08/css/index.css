@@ -1,0 +1,122 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: Roboto;
+}
+.main-div{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    margin: 25px 25px;
+  }
+  
+  nav img{
+    position: absolute;
+    margin: 0px 0px;
+    width: 120px;
+  }
+  
+  .nav-items{
+    position: absolute;
+    display: inline-flex;
+    padding-left:400px;
+  }
+  
+  .nav-item{
+    justify-content: space-between;
+    padding-right: 50px;
+    color: #343470;
+  }
+  
+  .signin-btn{
+     position: absolute;
+     width: 100px;
+     height: 25px;
+     margin-left: 1000px;
+     margin-top: 10px;
+     color: #fff;
+     background-image:linear-gradient(to right,#965cf2 0%,#965cf2 51%, #ff8adc 100%) ;
+     border: 0.1px solid transparent;
+     border-radius: 50px;
+     font-weight:400;  
+  }
+
+  .intro-section{
+    display: flex;
+    padding-left: 25px;
+  }
+
+  .left-section{
+    width: 30%;
+    padding-top: 100px;
+  }
+
+  .left-section h1{
+    color: #3e4794;
+    font-size: 50px;
+  }
+
+  .left-section h4{
+    color: #3e4794;
+    font-weight: 400;
+    padding-bottom:0px;
+    line-height: 20pt;
+  }
+
+  .learn-more-btn{
+    height: 35px;
+    width: 150px;
+    color: #fff;
+    font-weight: 500;
+    background-image:linear-gradient(to right,#965cf2 0%,#965cf2 51%, #ff8adc 100%);
+    border: 1px solid transparent;
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 25px;
+}
+
+.imgs-div{
+    z-index: -1;
+    display: block;
+    /* background-color: rgb(252, 134, 217); */
+    background-image: linear-gradient(to right,#caadf8,#efbef1);
+    border-bottom-left-radius: 60%;
+    margin-top: -150px;
+    padding-top: 150px;
+}
+
+.imgs-div img[src="./images/vector.svg"]{
+    /* background-color: yellow; */
+    position: absolute;
+    margin-top: 440px;
+    z-index: 5;
+}
+
+.imgs-div img[src="./images/vector-dot.svg"]{
+    z-index: 5;
+    /* background-color: rgb(111, 255, 28); */
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+
+.imgs-div img[src="./images/intro-img.svg"]{
+    z-index: 4;
+    position: relative;
+    width: 80vw;
+    height: 110vh;
+    margin-left:-100px;
+}
